@@ -6,10 +6,10 @@ Ok, let's write each other tasks
                             
 >Front-end           Andrew & Rehan
                             
->Back-end            Gennaro &
-                     Bradley
+>Back-end            Gennaro & Bradley
 
 Web Interface
+<br>
 Log-In
 Create new profile
 Search destinations/landmarks
