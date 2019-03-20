@@ -2,9 +2,9 @@
 
 Ok, let's write each other tasks
 
->Database            Alvin &
+>Database            Alvin & Chet
                             
->Front-end           Andrew &
+>Front-end           Andrew & Rehan
                             
 >Back-end            Gennaro &
                      Bradley
