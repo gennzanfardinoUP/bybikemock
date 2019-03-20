@@ -2,13 +2,13 @@
 
 Ok, let's write each other tasks
 
->Database            Alvin & Chet
+>3D1 Database            Alvin & Chet
                             
->Front-end           Andrew & Rehan
+>3D2 Front-end           Andrew & Rehan
                             
->Back-end            Gennaro & Bradley
+>3D3 Back-end            Gennaro & Bradley
 
-Web Interface<br>
+Web Interface<\t>3D2<br>
 Log-In<br>
 Create new profile<br>
 Search destinations/landmarks<br>
