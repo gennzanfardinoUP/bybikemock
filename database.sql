@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `team3d`
+CREATE DATABASE IF NOT EXISTS `team3d` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `team3d`;
 --
 
 -- --------------------------------------------------------
@@ -63,7 +65,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `idUser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `idUser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
