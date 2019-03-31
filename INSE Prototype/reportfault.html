@@ -3,23 +3,41 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>ByBike</title>
+    <title>ByBike Report a fault</title>
   </head>
   <body>
-    <div class="boxed">
-      <div class="userdetails">User details></div>
-      <p class="useroptions">User buttons</p>
+    <div id="first">
+      <div id="second"><span class="dot"><img class="userheadicon" src="img/user.png"></span>
+        <p class="username" style="color:white"> Guy whocantcycle </p>
+      </div>
+
+      <ul class="usernavlist">
+        <li class="usernavalign">
+          <a onclick="favouritesRedirect" href="#" style="text-decoration: none"><img class="usernavicon" src="img/favouriteicon.png"/><p class="usernav"> Favourites</p></a>
+        </li>
+        <li class="usernavalign">
+          <a onclick="bookmarksRedirect" href="#" style="text-decoration: none"><img class="usernavicon" src="img/bookmarkicon.png"/><p class="usernav"> Bookmarks</p></a>
+        </li>
+        <li class="usernavalign">
+          <a onclick="photosRedirect" href="#" style="text-decoration: none"><img class="usernavicon" src="img/cameraicon.png"/><p class="usernav"> Photos</p></a>
+        </li>
+        <li class="usernavalign">
+          <a onclick="placesRedirect" href="#" style="text-decoration: none"><img class="usernavicon" src="img/mapicon.png"/><p class="usernav"> Places</p></a>
+        </li>
+      </ul>
     </div>
-    <div class="mainbox">
-      <div class="titlebox">
-        <h1>Report issues and faults</h1>
-      </div>
-      <button type="button" class="returnbutton">Return to search</button>
-      <div class="infobox">
-          <h3>If you have encountered any issues or faults while using the platform, please inform us of them in the box below.</h3>
-      </div>
-      <textarea type="text" class="faulttextbox" placeholder="Please enter the issue here.."></textarea>
-      <button type="submit" class="btn btn-primary btn-block btn-large">Submit</button>
+    <div id="reporttitlebox">
+      <h1 style="text-align:center; color: white">Report an issue or fault</h1>
+    </div>
+    <div id="reportbackbutton">
+      <h1 class="clicktext" >Back to search</h1>
+    </div>
+    <div id="reportinfobox">
+      <h2 style="text-align:center; color: white">If you have encountered any issues or faults while using the platform, please inform us of them in the box below.</h2>
+    </div>
+    <textarea type="text" id="reporttextbox" placeholder="Please enter the issue here.."></textarea>
+    <div id="reportsubmitbutton">
+      <h1 class="clicktext" >Submit</h1>
     </div>
   </body>
 </html>
