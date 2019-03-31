@@ -121,7 +121,7 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 
 .searchbar {
     margin-left: 4%;
-    width: 65%;
+    width: 69%;
 		font-size: 35px;
 		display: inline-block;
 		position: fixed;
@@ -158,10 +158,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
   margin-left: 10px;
 }
 
-
-
-
-
 @media only screen and (min-width: 1082px) {
 	.homepageButton, .favouritesButton {
 		min-height: 20px;
@@ -175,8 +171,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 		margin-top: 0.7em;
 		text-align: center;
 }
-
-
 
 	.dashboard {
 		min-height: 45%;
@@ -217,79 +211,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 	border-top-right-radius: 5px;
 }
 
-.usernav{
-	color: grey;
-	font-size: 25px;
-	text-decoration: none;
-	display: inline-block;
-}
-
-.usernavlist {
-  list-style-type: none;
-	margin-top: 18%;
-	display: flex;
-	flex-direction: column;
-}
-
-.usernavalign{
-  margin: 10px;
-	text-align: left;
-	padding-left: 18%;
-}
-
-.usernavicon{
-	position: relative;
-	top: 5px;
-	right: 5px;
-}
-
-.dot {
-	height: 27%;
-  width: 25%;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 25%;
-  margin-left: 5%;
-}
-
-.userheadicon{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width: 100%;
-}
-
-.username{
-	font-size: x-large;
-	display: inline-block;
-	position: relative;
-	bottom: 30px;
-	left: 10px
-}
-
-#locationbar{
-	background-color: #008FFF;
-	display: inline-block;
-	width: 65%;
-	height: 6%;
-	position: absolute;
-	top: 12%;
-	left: 26%;
-	border-radius: 5px;
-}
-
-#outerstarbox{
-	display: inline-block;
-	background-color: white;
-	height: 65%;
-	width: 65%;
-	position: absolute;
-	top: 23%;
-	left: 26%;
-	border-radius: 10px;
-}
-
 .innerstarbox{
 	display: block;
 	width: 100%;
@@ -308,27 +229,11 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
   position: absolute;
   top: 90%;
   left: 26%;
-	border-radius: 5px;
-	margin: 0;
-	padding: 0;
-}
-
-#readreviews{
-	display: inline-block;
-	background-color: #008FFF;
-	height: 6%;
-	width: 25%;
-	position: absolute;
-	top: 90%;
-	left: 66%;
-	border-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #addrating :hover{
-	background-color: skyblue;
-}
-
-#readreviews :hover{
 	background-color: skyblue;
 }
 
@@ -341,138 +246,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 	border-radius: 5px;
 }
 
-#first {
-	width: 20%;
-  height: 95%;
-  background: white;
-  margin-left: 20px;
-  margin-top: 25px;
-	display: inline-block;
-	border-radius: 10px;
-}
-#first #second{
-	width: 100%;
-	height: 40%;
-	background: #008FFF;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
-
-.usernav{
-	color: grey;
-	font-size: 25px;
-	text-decoration: none;
-	display: inline-block;
-}
-
-.usernavlist {
-  list-style-type: none;
-	margin-top: 18%;
-	display: flex;
-	flex-direction: column;
-}
-
-.usernavalign{
-  margin: 10px;
-	text-align: left;
-	padding-left: 18%;
-}
-
-.usernavicon{
-	position: relative;
-	top: 5px;
-	right: 5px;
-}
-
-.dot {
-	height: 27%;
-  width: 25%;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 25%;
-  margin-left: 5%;
-}
-
-.userheadicon{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-	width: 100%;
-}
-
-.username{
-	font-size: x-large;
-	display: inline-block;
-	position: relative;
-	bottom: 30px;
-	left: 10px
-}
-
-#locationbar{
-	background-color: #008FFF;
-	display: inline-block;
-	width: 65%;
-	height: 6%;
-	position: absolute;
-	top: 12%;
-	left: 26%;
-	border-radius: 5px;
-}
-
-#outerstarbox{
-	display: inline-block;
-	background-color: white;
-	height: 65%;
-	width: 65%;
-	position: absolute;
-	top: 23%;
-	left: 26%;
-	border-radius: 10px;
-}
-
-.innerstarbox{
-	display: block;
-	width: 100%;
-	height: 20%;
-	background-color: white;
-	border-color: white;
-	border-bottom-color: black;
-	border-style: solid;
-}
-
-#addrating{
-	display: inline-block;
-	background-color: #008FFF;
-  height: 6%;
-  width: 25%;
-  position: absolute;
-  top: 90%;
-  left: 26%;
-	border-radius: 5px;
-	margin: 0;
-	padding: 0;
-}
-
-#readreviews{
-	display: inline-block;
-	background-color: #008FFF;
-	height: 6%;
-	width: 25%;
-	position: absolute;
-	top: 90%;
-	left: 66%;
-	border-radius: 5px;
-}
-
-#addrating :hover{
-	background-color: skyblue;
-}
-
-#readreviews :hover{
-	background-color: skyblue;
-}
-
 .clicktext{
 	margin: 0;
 	text-align:center;
@@ -482,23 +255,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 	border-radius: 5px;
 }
 
-#first {
-	width: 20%;
-  height: 95%;
-  background: white;
-  margin-left: 20px;
-  margin-top: 25px;
-	display: inline-block;
-	border-radius: 10px;
-}
-#first #second{
-	width: 100%;
-	height: 40%;
-	background: #008FFF;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
-
 .usernav{
 	color: grey;
 	font-size: 25px;
@@ -550,39 +306,40 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 	left: 10px
 }
 
-#locationbar{
+.locationbar{
 	background-color: #008FFF;
 	display: inline-block;
-	width: 65%;
+	width: 68%;
 	height: 6%;
 	position: absolute;
 	top: 12%;
 	left: 26%;
-	border-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
-#outerstarbox{
+.locationbarshort{
+	background-color: #008FFF;
+	display: inline-block;
+	width: 56%;
+	height: 6%;
+	position: absolute;
+	top: 12%;
+	left: 26%;
+	border-top-left-radius: 5px;
+}
+
+.outerstarbox{
 	display: inline-block;
 	background-color: white;
 	height: 65%;
-	width: 65%;
+	width: 68%;
 	position: absolute;
 	top: 23%;
 	left: 26%;
-	border-radius: 10px;
 }
 
-.innerstarbox{
-	display: block;
-	width: 100%;
-	height: 20%;
-	background-color: white;
-	border-color: white;
-	border-bottom-color: black;
-	border-style: solid;
-}
-
-#addrating{
+.addbutton{
 	display: inline-block;
 	background-color: #008FFF;
   height: 6%;
@@ -590,9 +347,8 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
   position: absolute;
   top: 90%;
   left: 26%;
-	border-radius: 5px;
-	margin: 0;
-	padding: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #readreviews{
@@ -602,11 +358,12 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 	width: 25%;
 	position: absolute;
 	top: 90%;
-	left: 66%;
-	border-radius: 5px;
+	left: 69%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
-#addrating :hover{
+.addbutton :hover{
 	background-color: skyblue;
 }
 
@@ -626,7 +383,7 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 #reporttitlebox{
 	display: inline-block;
 	background-color: #008FFF;
-	height: 10%;
+	height: 7%;
 	width: 58%;
 	border-top-left-radius: 5px;
 	position: absolute;
@@ -637,7 +394,7 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 #reportbackbutton{
 	display: inline-block;
 	background-color: #008FFF;
-	height: 10%;
+	height: 7%;
 	width: 11%;
 	border-top-right-radius: 5px;
 	position: absolute;
@@ -664,14 +421,25 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 	left: 26%;
 }
 
-#reportsubmitbutton{
+.submitbutton{
 	background-color: #008FFF;
 	display: inline-block;
 	height: 5%;
-	width: 70%;
+	width: 68%;
 	position: absolute;
 	top: 93%;
 	left: 26%;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+}
+
+.backbutton{
+	display: inline-block;
+	background-color: #008FFF;
+	height: 6%;
+	width: 11%;
+	border-top-right-radius: 5px;
+	position: absolute;
+	top: 12%;
+	left: 83%;
 }
